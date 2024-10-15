@@ -27,8 +27,8 @@ The project utilizes EfficientNetB0, a convolutional neural network (CNN) archit
 
 ### Dataset Preparation
 
-1. The dataset consists of images divided into two classes: clean water and water with microplastics.
 ![alt text](https://github.com/AryanDahiya00/Microplastic_Detection/blob/main/Capture1.JPG)
+1. The dataset consists of images divided into two classes: clean water and water with microplastics.
 2. Images are organized into three main folders: training, validation, and testing.
 3. Data augmentation techniques are applied to the training set, including:
    - Rescaling
@@ -47,6 +47,7 @@ The project utilizes EfficientNetB0, a convolutional neural network (CNN) archit
    - Batch normalization
    - Dropout (0.5) for preventing overfitting
    - Final dense layer with sigmoid activation for binary classification
+  
 ![alt text](https://github.com/AryanDahiya00/Microplastic_Detection/blob/main/Untitled%20Diagram.drawio.png)
 
 ### Training Process
@@ -76,6 +77,7 @@ The model achieved impressive results in detecting microplastics:
    - 99 correct predictions for clean water
    - 98 correct predictions for microplastics
    - Only 1 false positive and 2 false negatives
+
 ![alt text](https://github.com/AryanDahiya00/Microplastic_Detection/blob/main/Capture2.JPG)
 
 ## Real-World Application
@@ -88,6 +90,7 @@ To demonstrate the model's practical use, a user-defined function was created to
 4. The model predicts whether the water sample contains microplastics or not.
 
 This feature allows for interactive testing and shows the model's potential for real-world water quality assessment.
+
 ![alt text](https://github.com/AryanDahiya00/Microplastic_Detection/blob/main/Capture3.JPG)
 
 ## Conclusion
